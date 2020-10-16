@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* UTILITY */
+.container{
+  width: 80%;
+  margin: auto;
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.nav_ht{
+  height: 100px;
+}
+.card_ht{
+  height: 400px;
+}
+.row_width{
+  width: 33.33%;
+}
+/* .row_4{
+  height: 700px;
+} */
+.vod_space{
+  border: 4px solid black;
+  height: 50px;
+}
+
+.ft_lx{
+  float: left;
+}
+
+.pd_20{
+  padding: 0 20px;
+}
+.pd_20_tb{
+  padding: 40px 0;
+}
+.col_3{
+  border: 2px solid black;
+  display: inline;
+}
+/* UTILITY */
+/* MAIN  */
+#site_header{
+  height: 550px;
+}
+#site_main{
+
+}
+#site_footer{
+  height: 500px;
+}
+/* BACKGROUN COLORS */
+.bg_lightgreen{
+  background-color: lightgreen;
+}
+.bg_blue{
+  background-color: blue;
+}
+.bg_green{
+  background-color: green;
+}
+.bg_black{
+  background-color: black;
+}
+.bg_purple{
+  background-color: purple;
+}
+.bg_yellow{
+  background-color: yellow;
+}
+.bg_white{
+  background-color: white;
+}
+
+/* BACKGROUN COLORS */
+
+/* HEADER */
+.hero_txt{
+  height: 200px;
+  width: 400px;
+  background-color: white;
+}
+
+.left_card{
+  float: left;
+  width: 30%;
+  height: 400px;
+}
+.right_card{
+  float: left;
+  width: 70%;
+  height: 400px;
+}
+
+.inside_box{
+  width: 25%;
+  height: 100px;
+  float: left;
+  border: 2px solid black;
+  background: green;
+  text-align: center;
+}
