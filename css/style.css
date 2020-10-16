@@ -14,6 +14,7 @@ body{
   content: " ";
   display: table;
   clear: both;
+    border: 10px solid black;
 }
 
 .nav_ht{
@@ -30,7 +31,7 @@ body{
 } */
 .vod_space{
   border: 4px solid black;
-  height: 50px;
+  height: 200px;
 }
 
 .ft_lx{
@@ -56,7 +57,7 @@ body{
 
 }
 #site_footer{
-  height: 500px;
+
 }
 /* BACKGROUN COLORS */
 .bg_lightgreen{
@@ -81,13 +82,19 @@ body{
   background-color: white;
 }
 
+.bg_red{
+  background-color: red;
+}
 /* BACKGROUN COLORS */
 
 /* HEADER */
 .hero_txt{
-  height: 200px;
+  height: 550px;
   width: 400px;
   background-color: white;
+}
+.hero_image{
+  background-color: yellow;
 }
 
 .left_card{
@@ -108,4 +115,37 @@ body{
   border: 2px solid black;
   background: green;
   text-align: center;
+}
+
+.last_menu{
+  height: 800px;
+}
+.left_side{
+  width: 25%;
+  height: 400px;
+}
+.right_side{
+  width: 75%;
+  height: 400px;
+}
+
+.last_menu_txt{
+  width: 50%;
+  height: 400px;
+}
+.last_menu_img{
+  width: 50%;
+  height: 400px;
+}
+
+.footer_4{
+  height: 200px;
+}
+.footer_boxes{
+  height: 200px;
+  width: 25%;
+  border: 2px solid black;
+}
+.footer_bottom{
+  height: 300px;
 }
