@@ -6,6 +6,8 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  min-width: 1400px;
+  overflow-x: hidden;
 }
 /* UTILITY */
 .container{
@@ -14,7 +16,6 @@ body{
   content: " ";
   display: table;
   clear: both;
-    border: 10px solid black;
 }
 
 .nav_ht{
@@ -30,14 +31,16 @@ body{
   height: 700px;
 } */
 .vod_space{
-  border: 4px solid black;
-  height: 200px;
+  border: 2px solid black;
+  height: 100px;
 }
 
 .ft_lx{
   float: left;
 }
-
+.ft_dx{
+  float: right;
+}
 .pd_20{
   padding: 0 20px;
 }
@@ -59,9 +62,22 @@ body{
 #site_footer{
 
 }
+
+.btn{
+  color: white;
+  border: 1px solid #feb8a8;
+  background: #feb8a8;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+a {
+  color: #33475b;
+  text-decoration: none;
+}
 /* BACKGROUN COLORS */
 .bg_lightgreen{
-  background-color: lightgreen;
+  background-color: #aceae3;
 }
 .bg_blue{
   background-color: blue;
@@ -88,14 +104,76 @@ body{
 /* BACKGROUN COLORS */
 
 /* HEADER */
+
+.info_left{
+  line-height: 100px;
+}
+.info_right{
+  line-height: 100px;
+}
+.info_left a, .info_right a{
+  text-decoration: none;
+}
+.info_right > i{
+  color: #33475b;
+}
+.info_right_bottom{
+  line-height: 100px;
+}
+
+.logo_nav{
+  line-height: 100px;
+}
+.logo_nav img{
+  height: 25px;
+  margin-top: 10px;
+}
+
+.info_right_bottom > a:not(:last-child){
+  margin: 0 20px;
+}
+
+.language{
+  padding-right: 10px;
+  border-right: 2px solid gray;
+}
+.contact{
+  padding-left: 10px;
+}
+.login{
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border: 1px solid #feb8a8;
+  border-radius: 5px;
+  color: #feb8a8;
+}
+.hero_img{
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+}
+.hero_container{
+  position: relative;
+  height: calc(550px - 200px)
+}
 .hero_txt{
-  height: 550px;
-  width: 400px;
-  background-color: white;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.hero_image{
-  background-color: yellow;
+.hero_txt h1, p{
+  width: 50%;
+  color: #33475b;
 }
+.hero_txt h1{
+  font-weight: 500;
+}
+.hero_txt p{
+  margin: 40px 0;
+}
+/*// HEADER */
 
 .left_card{
   float: left;
