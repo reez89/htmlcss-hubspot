@@ -8,6 +8,8 @@ body{
   font-family: 'Roboto', sans-serif;
   min-width: 1400px;
   overflow-x: hidden;
+  /* position: relative; */
+
 }
 /* UTILITY */
 .container{
@@ -17,6 +19,17 @@ body{
   display: table;
   clear: both;
 }
+.container_nav{
+  background-color: #F4F9FD;
+  border: 1px solid black;
+}
+
+/* .fixed{
+  width: 100%;
+  min-width: 900px;
+  position:fixed;
+  top:0;
+} */
 
 .nav_ht{
   height: 100px;
@@ -75,6 +88,12 @@ a {
   color: #33475b;
   text-decoration: none;
 }
+
+.nav_top{
+
+
+}
+
 
 /* // COMMON  */
 
