@@ -27,9 +27,7 @@ body{
 .row_width{
   width: 33.33%;
 }
-/* .row_4{
-  height: 700px;
-} */
+
 .vod_space{
   border: 2px solid black;
   height: 100px;
@@ -52,9 +50,11 @@ body{
   display: inline;
 }
 /* UTILITY */
-/* MAIN  */
+
+/* COOMON  */
+
 #site_header{
-  height: 550px;
+  /* height: 550px; */
 }
 #site_main{
 
@@ -75,6 +75,10 @@ a {
   color: #33475b;
   text-decoration: none;
 }
+
+/* // COMMON  */
+
+
 /* BACKGROUN COLORS */
 .bg_lightgreen{
   background-color: #aceae3;
@@ -148,14 +152,15 @@ a {
   color: #feb8a8;
 }
 .hero_img{
+  background-color: #fff4ee;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100% 50%;
+  width: 100%;
+  background-position: 100% 40%;
 }
 .hero_container{
   position: relative;
-  height: calc(550px - 200px)
+  height: 550px;
 }
 .hero_txt{
   width: 50%;
