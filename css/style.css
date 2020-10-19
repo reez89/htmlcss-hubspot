@@ -8,7 +8,7 @@ body{
   font-family: 'Roboto', sans-serif;
   min-width: 1400px;
   overflow-x: hidden;
-  /* position: relative; */
+  position: relative;
 
 }
 /* UTILITY */
@@ -22,14 +22,18 @@ body{
 .container_nav{
   background-color: #f4f9fd;
   border: 1px solid black;
+  height: 100px;
 }
 
-/* .fixed{
+.fixed{
   width: 100%;
-  min-width: 900px;
   position:fixed;
   top:0;
-} */
+}
+
+.nav_bottom{
+  /* margin-top: 100px; */
+}
 
 .nav_ht{
   height: 100px;
@@ -82,7 +86,7 @@ body{
 background-color: #f4f9fd;
 }
 #site_footer{
-
+    background-color: #33475b;
 }
 
 .btn{
@@ -122,8 +126,8 @@ a {
 .bg_purple{
   background-color: purple;
 }
-.bg_yellow{
-  background-color: yellow;
+.bg_footer{
+  background-color: #33475b;
 }
 .bg_white{
   background-color: white;
@@ -239,6 +243,9 @@ a {
   clear: both;
 }
 .left_card{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
   float: left;
   width: 30%;
   text-align: center;
@@ -262,9 +269,11 @@ a {
   border-radius: 10px;
 }
 .right_card{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
   float: left;
   width: 70%;
-  height: 400px;
 }
 .right_card h2{
   margin: 20px 0;
@@ -373,30 +382,82 @@ h3:after {
 
 
 
-
-
-
-
 .last_menu{
-  height: 800px;
+  height: 200px;
 }
 .left_side{
+  text-align: center;
   width: 25%;
-  height: 400px;
+  height: 200px;
 }
+
+.left_side_txt{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 50%;
+}
+
+.loghi_up{
+  text-align: center;
+  margin-left: 50px;
+}
+.loghi_up img{
+  padding: 0 20px;
+}
+.loghi_down{
+  text-align: center;
+  margin-left: 70px;
+}
+.loghi_down img{
+  padding: 0 20px;
+}
+
+.p_center{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .right_side{
   width: 75%;
-  height: 400px;
+  height: 200px;
+}
+.right_side img{
+  height: 30px;
+}
+
+.last_menu_txt_container h2{
+  width: 50%;
+}
+.last_menu_txt_container p{
+  width: 80%;
+}
+.last_menu_txt p{
+  margin: 40px 0;
+}
+
+.last_menu_txt_container .p_sm{
+  font-size: 12px;
 }
 
 .last_menu_txt{
-  width: 50%;
+  width: 40%;
   height: 400px;
 }
 .last_menu_img{
-  width: 50%;
+  text-align: right;
+  width: 60%;
   height: 400px;
 }
+
+.last_menu_img img{
+
+  height: 400px;
+}
+
 
 
 .footer_4{
