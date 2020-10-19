@@ -20,7 +20,7 @@ body{
   clear: both;
 }
 .container_nav{
-  background-color: #F4F9FD;
+  background-color: #f4f9fd;
   border: 1px solid black;
 }
 
@@ -38,7 +38,7 @@ body{
   height: 400px;
 }
 .row_width{
-  width: 33.33%;
+  width: 29.93%;
 }
 
 .vod_space{
@@ -58,9 +58,15 @@ body{
 .pd_20_tb{
   padding: 40px 0;
 }
+
+.mg_20{
+  margin: 0 5%;
+}
 .col_3{
-  border: 2px solid black;
-  display: inline;
+  display: inline-block;
+  text-align: center;
+  height: 500px;
+  margin-bottom: 40px;
 }
 /* UTILITY */
 
@@ -70,7 +76,7 @@ body{
   /* height: 550px; */
 }
 #site_main{
-
+background-color: #f4f9fd;
 }
 #site_footer{
 
@@ -89,16 +95,15 @@ a {
   text-decoration: none;
 }
 
-.nav_top{
-
-
-}
-
 
 /* // COMMON  */
 
 
 /* BACKGROUN COLORS */
+
+.bg_container{
+  background-color: #F4F9FD;
+}
 .bg_lightgreen{
   background-color: #aceae3;
 }
@@ -151,6 +156,7 @@ a {
   height: 25px;
   margin-top: 10px;
 }
+/*// HEADER */
 
 .info_right_bottom > a:not(:last-child){
   margin: 0 20px;
@@ -187,7 +193,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
 }
-.hero_txt h1, p{
+.hero_txt h1, .here_txt p{
   width: 50%;
   color: #33475b;
 }
@@ -199,17 +205,127 @@ a {
 }
 /*// HEADER */
 
+/* MAIN */
+.card_img {
+  text-align: center;
+}
+.card_img img{
+  height: 120px;
+  margin-top: 20px;
+}
+.card_img h2{
+  font-weight:900;
+  color: #33475b;
+  margin: 20px 0;
+}
+.card_img p{
+  margin: 0 20px;
+  width: 100%;
+}
+.card_top{
+  margin-bottom: 50px;
+}
+.card_top::after{
+  margin: auto;
+  content: " ";
+  display: table;
+  clear: both;
+}
 .left_card{
   float: left;
   width: 30%;
-  height: 400px;
+  text-align: center;
+}
+.left_card img{
+  height: 100px;
+}
+
+.left_card a{
+  margin-top: 10px;
+  color: white;
+  border: 1px solid #feb8a8;
+  background: #feb8a8;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+}
+.check{
+  color: white;
+  background:#feb8a8;
+  border-radius: 10px;
 }
 .right_card{
   float: left;
   width: 70%;
   height: 400px;
 }
+.right_card h2{
+  margin: 20px 0;
+}
+.right_card p{
+  width: 60%;
+}
 
+.text_pop{
+  height: 23px;
+  width: 100%;
+}
+
+.right_card > h3:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+  margin-left: 40px;
+}
+
+.right_card h3 {
+  margin: 20px 0;
+  color: #33475b;
+}
+.right_card > ul > li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+  color: #33475b;
+}
+.right_card p{
+  color: #33475b;
+}
+
+.col_txt h2{
+  margin: 20px 0;
+}
+.col_txt h3{
+  margin-bottom: 30px;
+}
+.col_txt img{
+  height: 100px;
+}
+.h_rule{
+  margin: 30px 40px;
+  width: 80%;
+  border-color: #33475b;
+}
+.col_txt > ul {
+  margin-bottom: 30px;
+}
+.logo > ul > i{
+  display: inline;
+  margin-right: 10px;
+}
+.logo > ul > li{
+  list-style: none;
+  text-align: left;
+}
 .inside_box{
   width: 25%;
   height: 100px;
