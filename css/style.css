@@ -40,6 +40,9 @@ body{
 .row_width{
   width: 29.93%;
 }
+.row_4{
+  text-align: center;
+}
 
 .vod_space{
   border: 2px solid black;
@@ -128,6 +131,10 @@ a {
 
 .bg_red{
   background-color: red;
+}
+
+.bg_gradient{
+  background: #009fb9;
 }
 /* BACKGROUN COLORS */
 
@@ -326,14 +333,49 @@ h3:after {
   list-style: none;
   text-align: left;
 }
-.inside_box{
+
+.row_title{
+  margin: 60px 0;
+}
+.inside_box_up img, .inside_box_down img{
+  margin-top: 10px;
+}
+.inside_box_up, .inside_box_down{
   width: 25%;
-  height: 100px;
   float: left;
-  border: 2px solid black;
-  background: green;
   text-align: center;
 }
+.color_white{
+  color: white;
+}
+.col_4 h2{
+  margin: 10px 0;
+}
+.col_4 p{
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.inside_box_up{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.last{
+  border-right: none;
+}
+.img_ht{
+  height: 33px;
+}
+
+.inside_box_down:not(:last-child){
+  border-right: 1px solid white;
+}
+
+
+
+
+
+
+
 
 .last_menu{
   height: 800px;
@@ -355,6 +397,7 @@ h3:after {
   width: 50%;
   height: 400px;
 }
+
 
 .footer_4{
   height: 200px;
