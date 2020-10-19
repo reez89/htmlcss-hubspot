@@ -29,6 +29,7 @@ body{
   width: 100%;
   position:fixed;
   top:0;
+  z-index: 10;
 }
 
 .nav_bottom{
@@ -80,7 +81,8 @@ body{
 /* COOMON  */
 
 #site_header{
-  /* height: 550px; */
+  padding-top: 100px;
+}
 }
 #site_main{
 background-color: #f4f9fd;
@@ -140,9 +142,9 @@ a {
 .bg_gradient{
   background: #009fb9;
 }
-/* BACKGROUN COLORS */
+/* // BACKGROUN COLORS */
 
-/* HEADER */
+/* NAVBAR */
 
 .info_left{
   line-height: 100px;
@@ -167,7 +169,6 @@ a {
   height: 25px;
   margin-top: 10px;
 }
-/*// HEADER */
 
 .info_right_bottom > a:not(:last-child){
   margin: 0 20px;
@@ -187,6 +188,9 @@ a {
   border-radius: 5px;
   color: #feb8a8;
 }
+/* // NAVBAR */
+
+/* HERO BANNER */
 .hero_img{
   background-color: #fff4ee;
   background-image: url(../img/jumbotron.png);
@@ -214,7 +218,8 @@ a {
 .hero_txt p{
   margin: 40px 0;
 }
-/*// HEADER */
+/* HERO BANNER */
+
 
 /* MAIN */
 .card_img {
@@ -378,9 +383,6 @@ h3:after {
 .inside_box_down:not(:last-child){
   border-right: 1px solid white;
 }
-
-
-
 
 .last_menu{
   height: 200px;
