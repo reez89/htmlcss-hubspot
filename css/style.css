@@ -457,17 +457,50 @@ h3:after {
 
   height: 400px;
 }
-
-
+.footer_boxes h4{
+  margin-top: 20px;
+}
+.footer_boxes a{
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 10px 0;
+}
 
 .footer_4{
   height: 200px;
+  text-align: center;
 }
 .footer_boxes{
-  height: 200px;
   width: 25%;
-  border: 2px solid black;
 }
 .footer_bottom{
   height: 300px;
+}
+
+.footer_btn{
+  margin:0  auto;
+  width: 50%;
+}
+
+.footer_socials i{
+  padding: 0 10px;
+}
+.footer_bottom_languages{
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+}
+.languages_links{
+  margin-bottom: 20px;
+}
+.footer_bottom_languages a, .footer_bottom_down a{
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.footer_bottom_logo img{
+  background: white;
 }
