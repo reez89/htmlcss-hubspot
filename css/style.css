@@ -20,7 +20,7 @@ body{
 }
 .container_nav{
   background-color: #f4f9fd;
-  border: 1px solid black;
+  border-bottom: 1px solid #33475b;
   height: 100px;
 }
 
