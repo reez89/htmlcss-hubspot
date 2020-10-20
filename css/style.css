@@ -7,7 +7,6 @@
 body{
   font-family: 'Roboto', sans-serif;
   min-width: 1400px;
-  overflow-x: hidden;
   position: relative;
 
 }
@@ -30,10 +29,6 @@ body{
   position:fixed;
   top:0;
   z-index: 10;
-}
-
-.nav_bottom{
-  /* margin-top: 100px; */
 }
 
 .nav_ht{
@@ -76,19 +71,22 @@ body{
   height: 500px;
   margin-bottom: 40px;
 }
-/* UTILITY */
+
+/* // UTILITY */
 
 /* COOMON  */
 
 #site_header{
   padding-top: 100px;
 }
+
 }
 #site_main{
-background-color: #f4f9fd;
+  background-color: #f4f9fd;
 }
+
 #site_footer{
-    background-color: #33475b;
+  background-color: #33475b;
 }
 
 .btn{
@@ -146,6 +144,7 @@ a {
 
 /* NAVBAR */
 
+/* NAVBAR TOP */
 .info_left{
   line-height: 100px;
 }
@@ -156,8 +155,12 @@ a {
   text-decoration: none;
 }
 .info_right > i{
-  color: #33475b;
+  color: #10acc4;
 }
+/* // NAVBAR TOP */
+
+/* NAVBAR BOTTOM */
+
 .info_right_bottom{
   line-height: 100px;
 }
@@ -169,12 +172,11 @@ a {
   height: 25px;
   margin-top: 10px;
 }
-
 .info_right_bottom > a:not(:last-child){
   margin: 0 20px;
 }
-
 .language{
+  color: #33475b;
   padding-right: 10px;
   border-right: 2px solid gray;
 }
@@ -188,6 +190,8 @@ a {
   border-radius: 5px;
   color: #feb8a8;
 }
+/* //NAVBAR BOTTOM */
+
 /* // NAVBAR */
 
 /* HERO BANNER */
@@ -203,6 +207,7 @@ a {
   height: 550px;
 }
 .hero_txt{
+  color: #33475b;
   width: 50%;
   position: absolute;
   top: 50%;
@@ -210,7 +215,6 @@ a {
 }
 .hero_txt h1, .here_txt p{
   width: 50%;
-  color: #33475b;
 }
 .hero_txt h1{
   font-weight: 500;
@@ -222,6 +226,8 @@ a {
 
 
 /* MAIN */
+
+/* POWERFULL ALONE */
 .card_img {
   text-align: center;
 }
@@ -235,6 +241,7 @@ a {
   margin: 20px 0;
 }
 .card_img p{
+  color: #33475b;
   margin: 0 20px;
   width: 100%;
 }
@@ -247,6 +254,9 @@ a {
   display: table;
   clear: both;
 }
+/* // POWERFULL ALONE */
+
+/* FREE HUBSPOT */
 .left_card{
   position: relative;
   top:50%;
@@ -258,7 +268,6 @@ a {
 .left_card img{
   height: 100px;
 }
-
 .left_card a{
   margin-top: 10px;
   color: white;
@@ -266,7 +275,6 @@ a {
   background: #feb8a8;
   padding: 10px 20px;
   border-radius: 5px;
-
 }
 .check{
   color: white;
@@ -282,16 +290,16 @@ a {
 }
 .right_card h2{
   margin: 20px 0;
+  color: #33475b;
 }
 .right_card p{
   width: 60%;
+  color: #33475b;
 }
-
 .text_pop{
   height: 23px;
   width: 100%;
 }
-
 .right_card > h3:after {
   background-color: #000;
   content: "";
@@ -301,13 +309,11 @@ a {
   vertical-align: middle;
   width: 50%;
 }
-
 h3:after {
   left: 0.5em;
   margin-right: -50%;
   margin-left: 40px;
 }
-
 .right_card h3 {
   margin: 20px 0;
   color: #33475b;
@@ -322,10 +328,18 @@ h3:after {
   color: #33475b;
 }
 
+/* // FREE HUBSPOT */
+
+/* 3 CARDS */
+.col_txt p{
+  color: #33475b;
+}
 .col_txt h2{
   margin: 20px 0;
+  color: #33475b;
 }
 .col_txt h3{
+  color: #33475b;
   margin-bottom: 30px;
 }
 .col_txt img{
@@ -338,6 +352,7 @@ h3:after {
 }
 .col_txt > ul {
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 .logo > ul > i{
   display: inline;
@@ -347,10 +362,12 @@ h3:after {
   list-style: none;
   text-align: left;
 }
-
 .row_title{
   margin: 60px 0;
 }
+/* // 3 CARDS */
+
+/* LEARN AND GROW */
 .inside_box_up img, .inside_box_down img{
   margin-top: 10px;
 }
@@ -379,11 +396,12 @@ h3:after {
 .img_ht{
   height: 33px;
 }
-
 .inside_box_down:not(:last-child){
   border-right: 1px solid white;
 }
+/* // LEARN AND GROW */
 
+/* CAR LOGOS */
 .last_menu{
   height: 200px;
 }
@@ -392,8 +410,8 @@ h3:after {
   width: 25%;
   height: 200px;
 }
-
 .left_side_txt{
+  color: #33475b;
   position: relative;
   top: 50%;
   left: 50%;
@@ -401,7 +419,6 @@ h3:after {
   text-align: left;
   width: 50%;
 }
-
 .loghi_up{
   text-align: center;
   margin-left: 50px;
@@ -415,14 +432,13 @@ h3:after {
 }
 .loghi_down img{
   padding: 0 20px;
+  margin-top: 40px;
 }
-
 .p_center{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-
 .right_side{
   width: 75%;
   height: 200px;
@@ -430,21 +446,21 @@ h3:after {
 .right_side img{
   height: 30px;
 }
-
 .last_menu_txt_container h2{
   width: 50%;
+  color: #33475b;
 }
 .last_menu_txt_container p{
   width: 80%;
+  color: #33475b;
 }
 .last_menu_txt p{
   margin: 40px 0;
+  color: #33475b;
 }
-
 .last_menu_txt_container .p_sm{
   font-size: 12px;
 }
-
 .last_menu_txt{
   width: 40%;
   height: 400px;
@@ -454,11 +470,15 @@ h3:after {
   width: 60%;
   height: 400px;
 }
-
 .last_menu_img img{
-
   height: 400px;
+  padding-bottom: 40px;
+  margin-right: 100px;
 }
+
+/* // CAR LOGOS */
+
+/* FOOTER */
 .footer_boxes h4{
   margin-top: 20px;
 }
@@ -468,11 +488,10 @@ h3:after {
   color: white;
   display: block;
   margin: 10px 0;
+  text-align: left;
 }
-
 .footer_4{
   height: 200px;
-  text-align: center;
 }
 .footer_boxes{
   width: 25%;
@@ -480,12 +499,9 @@ h3:after {
 .footer_bottom{
   height: 300px;
 }
-
 .footer_btn{
-  margin:0  auto;
   width: 50%;
 }
-
 .footer_socials i{
   padding: 0 10px;
 }
@@ -502,7 +518,8 @@ h3:after {
   text-decoration: none;
   padding: 0 20px;
 }
-
 .footer_bottom_logo img{
   background: white;
 }
+
+/* // FOOTER */
